@@ -1,7 +1,17 @@
 class Contador {
-  // Inserte el código aquí
+
+  constructor(){
+    this.valor = 0;
+  }
+
+  incrementar(){
+    this.valor ++
+     return this.valor;
+  }
 }
 
-// Inserte el código aquí
+let instancia = new Contador();
 
-export { instancia }
+console.log(instancia.incrementar())
+
+//export { instancia }
